@@ -31,7 +31,7 @@ Here's a basic example of how to use the Circular ProgressBar in your code:
 ImGui::Begin("My Window");
 
 float progress = 0.75f; // Set your progress value here (0.0 to 1.0)
-CircularProgressBar("Progress", ImVec2(100, 100), progress);
+CircularProgressBar("CircularProgressBar", progress, ImVec2(100, 100), ImVec4(0.2f, 0.7f, 0.2f, 1.0f));
 
 ImGui::End();
 
